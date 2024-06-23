@@ -1,0 +1,26 @@
+﻿
+@model EntityLayer.Concrete.Feature
+
+@{
+    ViewData["Title"] = "AddFeature";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+  
+}
+
+<div style="margin-left:35%;margin-top:8%;">
+    <br /><br /><br />
+    <h4 style="margin-left:10px;">Öne Çıkan Ekleme Sayfası</h4>
+    <form method="post" class="col-xl-5 col-md-5 table-bordered" style="height:370px;">
+        <br />
+        <b>@Html.Label("Giriş")</b>
+        @Html.TextBoxFor(x => x.Header, new { @class = "form-control" })
+        <br />
+        <b>@Html.Label("İsim")</b>
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+        <br />
+        <b>@Html.Label("Başlık")</b>
+        @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-success">Kaydet</button>
+    </form>
+</div>

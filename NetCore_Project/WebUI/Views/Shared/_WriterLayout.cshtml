@@ -1,0 +1,103 @@
+﻿
+@{
+    Layout = null;
+}
+
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+@await Html.PartialAsync("/Areas/Writer/Views/Default/_HeadPartial.cshtml")
+
+
+<body>
+	<div class="container-scroller">
+		<!-- partial:../../partials/_navbar.html -->
+		@await Html.PartialAsync("/Areas/Writer/Views/Default/_NavbarPartial.cshtml")
+	
+
+		<!-- partial -->
+		<div class="container-fluid page-body-wrapper">
+			<!-- partial:../../partials/_settings-panel.html -->
+			@await Html.PartialAsync("/Areas/Writer/Views/Default/_SettingsBarPartial.cshtml")
+
+			<!-- partial -->
+			@await Html.PartialAsync("/Areas/Writer/Views/Default/_SidebarPartial.cshtml")
+			<!-- partial:../../partials/_sidebar.html -->
+			<nav class="sidebar sidebar-offcanvas" id="sidebar">
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/Writer/DashboardWriter/Index/">
+							<i class="icon-grid menu-icon"></i>
+							<span class="menu-title">Dashboard</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/Writer/WriterMessage/ReceiverMessage/">
+							<i class="ti-notepad menu-icon"></i>
+							<span class="menu-title">Gelen Mesajlar</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/Writer/WriterMessage/SenderMessage/">
+							<i class="ti-agenda menu-icon"></i>
+							<span class="menu-title">Giden Mesajlar</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/Writer/WriterMessage/SendMessage/">
+							<i class="ti-cloud menu-icon"></i>
+							<span class="menu-title">Yeni Mesaj</span>
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="/Writer/Default/Index/">
+							<i class="ti-announcement menu-icon"></i>
+							<span class="menu-title">Duyurular</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/Writer/Profile/Index/">
+							<i class="ti-settings menu-icon"></i>
+							<span class="menu-title">Profil Ayarları</span>
+						</a>
+					</li>
+			
+					<li class="nav-item">
+						<a class="nav-link" href="/Writer/Login/LogOut/">
+							<i class="ti-power-off menu-icon"></i>
+							<span class="menu-title">Çıkış Yap</span>
+						</a>
+					</li>
+					@if (User.IsInRole("Admin"))
+					{ 
+						<li class="nav-item">
+							<a class="nav-link" href="/Dashboard/Index/">
+								<i class="ti-server menu-icon"></i>
+								<span class="menu-title">Admin Paneli</span>
+							</a>
+						</li>
+				 	} 
+				</ul>
+			</nav>
+			<div class="main-panel">
+				<div class="content-wrapper">
+					<div class="row">
+
+						@RenderBody()
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	@await Html.PartialAsync("/Areas/Writer/Views/Default/_FooterPartial.cshtml")
+	<script src="~/skydash/vendors/js/vendor.bundle.base.js"></script>
+	<script src="~/skydash/js/off-canvas.js"></script>
+	<script src="~/skydash/js/hoverable-collapse.js"></script>
+	<script src="~/skydash/js/template.js"></script>
+	<script src="~/skydash/js/settings.js"></script>
+	<script src="~/skydash/js/todolist.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+﻿﻿@using EntityLayer.Concrete
+@model List<Experience>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayi = 0;
+}
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Deneyimlerim</h4>
+                <div class="table-responsive">
+                    <br />
+                    <table class="table table-bordered table-hover" style="color:white;">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="sort" data-sort="name">#</th>
+                                <th scope="col" class="sort" data-sort="budget">İsmi</th>
+                                <th scope="col" class="sort" data-sort="status">Tarihi</th>
+                                <th scope="col" class="sort" data-sort="status">Icon Url</th>
+                                <th scope="col" class="sort" data-sort="status">Açıklama</th>
+                                <th scope="col" class="sort" data-sort="status">Başlık</th>
+                                <th scope="col" class="sort text-center" data-sort="completion">İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var x in Model)
+                            {
+
+                                sayi++;
+                                <tr>
+                                    <td>@sayi</td>
+                                    <td>@x.Name</td>
+                                    <td>@x.Date</td>
+                                    <td><image style="width:40px; height:40px;" src="@x.ImageUrl"></image></td>
+                                    <td>@(x.Description.Length > 50 ? x.Description.Substring(0, 50) + "..." : x.Description)</td>
+                                    <td>@x.Title</td>
+
+                                    <td class="text-center">
+                                        <a href="/Experience/DeleteExperience/@x.ExperienceID" class="btn btn-outline-danger">Sil</a>
+                                        <a href="/Experience/EditExperience/@x.ExperienceID" class="btn btn-outline-info" style="margin-left:25px;"><i class="mdi mdi-border-color"></i> Güncelle</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="/Experience/AddExperience" class="btn btn-outline-primary"><i class="mdi mdi-plus-box"></i> Yeni Deneyim Ekle</a>
+

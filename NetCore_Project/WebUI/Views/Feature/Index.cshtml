@@ -1,0 +1,47 @@
+﻿﻿@using EntityLayer.Concrete
+@model List<Feature>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayi = 0;
+}
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Öne Çıkan</h4>
+                <div class="table-responsive">
+                    <br />
+                    <table class="table table-bordered" style="color:white;">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="sort" data-sort="name">#</th>
+                                <th scope="col" class="sort" data-sort="budget">Giriş</th>
+                                <th scope="col" class="sort" data-sort="status">İsim</th>
+                                <th scope="col" class="sort" data-sort="status">Başlık</th>
+                                <th scope="col" class="sort text-center" data-sort="completion">İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var x in Model)
+                            {
+                                sayi++;
+                                <tr>
+                                    <td>@sayi</td>
+                                    <td>@x.Header</td>
+                                    <td>@x.Name</td>
+                                    <td>@x.Title</td>
+                                    <td class="text-center">
+                                        <a href="/Feature/DeleteFeature/@x.FeatureID" class="btn btn-outline-danger"><i class="ni ni-fat-remove"></i> Sil</a>
+                                        <a href="/Feature/UpdateFeature/@x.FeatureID" class="btn btn-outline-info" style="margin-left:25px;"><i class="ni ni-scissors"></i> Güncelle</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="/Feature/AddFeature" class="btn btn-outline-primary"><i class="mdi mdi-plus-box"></i> Yeni Öne Çıkan Ekle</a>

@@ -1,0 +1,74 @@
+﻿﻿ @using EntityLayer.Concrete
+ @model List<WriterUser>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-md-6">
+	<div class="p-2">
+		<button type="button" id="getlistall" class="btn btn-outline-primary">Verileri Getir</button>
+		<button type="button" id="btnadduser" class="btn btn-outline-info">Kaydet</button>
+	</div>
+</div>
+
+<h4 class="text-center">Yazar Listesi</h4>
+<div class="p-2" id="listuser">
+	buraya veriler gelecek
+</div>
+
+<br />
+
+<div class="col-md-12">
+	<input type="text" class="form-control" id="inpName" placeholder="Ad" />
+	<br />
+	<input type="text" class="form-control" id="inpSurname" placeholder="Soyad" />
+	<br />
+	<input type="text" class="form-control" id="inpUsername" placeholder="Kullanıcı Adınız" />
+	<br />
+	<input type="text" class="form-control" id="inpMail" placeholder="Mail Adresi" />
+	<br />
+	<input type="text" class="form-control" id="inpPassword" placeholder="Şifre" />
+</div>
+
+@section Scripts
+{
+	<script>
+		$("#getlistall").click(function () {  //getlistall metodu butonun tetiklendiği metot
+			$.ajax({
+				contentType: "application/json",
+				dataType: "json",
+				type: "Get",
+				url: "/WriterUser/ListUser/",  //  /Controller/metotAdı/
+				success: function (funk) {
+					let users = jQuery.parseJSON(funk);
+					console.log(users);
+
+					let table = "<table class='table'>";
+					table += "<thead><tr><th>Ad</th><th>Soyad</th><th>Kullanıcı Adınız</th><th>Mail Adresi</th></tr></thead><tbody>";
+
+					users.forEach(user => {
+						table += "<tr>";
+						table += "<td>" + user.Name + "</td>";
+						table += "<td>" + user.Surname + "</td>";
+						table += "<td>" + user.UserName + "</td>";
+						table += "<td>" + user.Email + "</td>";
+						table += "</tr>";
+					});
+
+					table += "</tbody></table>";
+
+					$("#listuser").html(table);  // Insert the table into the div
+				}
+			});
+		});
+
+		
+	</script>
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+
+
+

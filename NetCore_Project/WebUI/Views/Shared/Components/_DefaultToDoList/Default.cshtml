@@ -1,0 +1,43 @@
+﻿﻿@using EntityLayer.Concrete
+@model List<ToDoList>
+
+<div class="col-md-12 col-xl-3 grid-margin stretch-card">
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">Görev Listem</h4>
+			<div class="add-items d-flex">
+				<input type="text" class="form-control todo-list-input" placeholder="Görev Oluştur..">
+				<button class="add btn btn-primary todo-list-add-btn">Kaydet</button>
+			</div>
+
+			<div class="list-wrapper">
+				@foreach (var item in Model)
+				{
+					var values = Convert.ToDateTime(DateTime.Now);
+
+					var hesapla = values - item.AddDate;
+
+
+					<ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
+						<li>
+
+							<div class="form-check form-check-primary">
+								<label class="form-check-label">
+									<input class="checkbox" type="checkbox"> @item.Title
+								</label>
+								<label class="form-check-label text-danger">
+									<input class="checkbox" type="checkbox"> Oluşturma Tarihi : @item.AddDate.ToString("dd-MM-yyy    hh:mm:ss")
+								</label>
+								<label class="form-check-label text-danger">
+									<input class="checkbox" type="checkbox"> Geçen Süre : @hesapla.ToString("dd' gün 'hh' Saat 'mm' Dakika 'ss' Saniye'")
+								</label>
+							</div>
+							<i class="remove mdi mdi-close-box"></i>
+
+						</li>
+					</ul>
+				}
+			</div>
+		</div>
+	</div>
+</div>

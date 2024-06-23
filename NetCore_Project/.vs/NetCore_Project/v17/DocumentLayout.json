@@ -1,0 +1,260 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\areas\\writer\\controllers\\dashboardwritercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\areas\\writer\\controllers\\dashboardwritercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\views\\shared\\_writerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\shared\\_writerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\areas\\writer\\controllers\\writermessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\areas\\writer\\controllers\\writermessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\areas\\writer\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\areas\\writer\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\areas\\writer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\areas\\writer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\views\\experienceajax\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\experienceajax\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\controllers\\experienceajaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\experienceajaxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\areas\\writer\\views\\default\\_footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\areas\\writer\\views\\default\\_footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|d:\\softwareproject\\netcalismalari\\netcore_project\\webui\\views\\admin\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B2033F6-DA43-446E-9386-A8518EAE4137}|WebUI\\WebUI.csproj|solutionrelative:webui\\views\\admin\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\DefaultController.cs",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\DefaultController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:23:44.537Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Default\\Index.cshtml",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Default\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T22:50:38.641Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PartialSideBar.cshtml",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\Admin\\PartialSideBar.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Admin\\PartialSideBar.cshtml",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\Admin\\PartialSideBar.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Admin\\PartialSideBar.cshtml",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAALcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T23:12:28.326Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T22:15:13.929Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_WriterLayout.cshtml",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\Shared\\_WriterLayout.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\Shared\\_WriterLayout.cshtml",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\Shared\\_WriterLayout.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\Shared\\_WriterLayout.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T18:39:56.359Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:52:26.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardWriterController.cs",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Controllers\\DashboardWriterController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Areas\\Writer\\Controllers\\DashboardWriterController.cs",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Controllers\\DashboardWriterController.cs",
+              "RelativeToolTip": "WebUI\\Areas\\Writer\\Controllers\\DashboardWriterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:52:01.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WriterMessageController.cs",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Controllers\\WriterMessageController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Areas\\Writer\\Controllers\\WriterMessageController.cs",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Controllers\\WriterMessageController.cs",
+              "RelativeToolTip": "WebUI\\Areas\\Writer\\Controllers\\WriterMessageController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:50:05.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Areas\\Writer\\Controllers\\RegisterController.cs",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "WebUI\\Areas\\Writer\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:50:02.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Areas\\Writer\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebUI\\Areas\\Writer\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:49:58.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:49:46.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\ExperienceAjax\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Views\\ExperienceAjax\\Index.cshtml",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Views\\ExperienceAjax\\Index.cshtml",
+              "RelativeToolTip": "WebUI\\Views\\ExperienceAjax\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-23T00:31:57.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExperienceAjaxController.cs",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Controllers\\ExperienceAjaxController.cs",
+              "RelativeDocumentMoniker": "WebUI\\Controllers\\ExperienceAjaxController.cs",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Controllers\\ExperienceAjaxController.cs",
+              "RelativeToolTip": "WebUI\\Controllers\\ExperienceAjaxController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:31:55.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_FooterPartial.cshtml",
+              "DocumentMoniker": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Views\\Default\\_FooterPartial.cshtml",
+              "RelativeDocumentMoniker": "WebUI\\Areas\\Writer\\Views\\Default\\_FooterPartial.cshtml",
+              "ToolTip": "D:\\SoftwareProject\\NetCalismalari\\NetCore_Project\\WebUI\\Areas\\Writer\\Views\\Default\\_FooterPartial.cshtml",
+              "RelativeToolTip": "WebUI\\Areas\\Writer\\Views\\Default\\_FooterPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T22:29:32.21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
